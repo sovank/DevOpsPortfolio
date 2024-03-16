@@ -1,0 +1,2 @@
+Follow these steps to configure your git repository:
+    Initialize your repository by selecting the folder by the command `git init`
