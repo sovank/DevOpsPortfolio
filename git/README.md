@@ -1,7 +1,7 @@
 # **Follow these steps to configure your git repository:**
 ##    - Navigate to the folder where you want to create a git repository and open git bash
 ##    - Initialize a new Git repository: 
-###        `git init`
+####        `git init`
     - Show all git configurations: 
         `git config -l`
     - Set local user.name and user.email(if you want to set the global configurations you can can use the `global` keyword instead of local):
