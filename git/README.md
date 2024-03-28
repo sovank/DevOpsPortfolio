@@ -1,4 +1,4 @@
-**Follow these steps to configure your git repository:**
+# **Follow these steps to configure your git repository:**
     - Navigate to the folder where you want to create a git repository and open git bash
     - Initialize a new Git repository: 
         `git init`
