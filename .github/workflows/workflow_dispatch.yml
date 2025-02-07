@@ -1,0 +1,17 @@
+name: My Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      my_input:
+        description: 'Enter a value for my input'
+        required: true
+        type: string
+
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log input value
+        run: |
+          echo "My input value: ${{ github.event.inputs.my_input }}"
